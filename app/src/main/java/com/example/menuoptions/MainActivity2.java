@@ -10,8 +10,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
 
+/**
+ * The type Main activity 2.
+ */
 public class MainActivity2 extends AppCompatActivity {
 
+    /**
+     * The Linear layout.
+     */
     LinearLayout linearLayout;
 
     @Override
@@ -46,7 +52,12 @@ public class MainActivity2 extends AppCompatActivity {
         menu.add(0, 0, 1000, "green");
         return true;
     }
-    
+
+    /**
+     * Back.
+     *
+     * @param view the view
+     */
     public void back(View view) {
         finish();
     }
